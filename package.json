@@ -8,10 +8,12 @@
     "dev": "parcel ./src/index.html --open",
     "build": "parcel build ./src/index.html",
     "circle": "parcel ./src/circle/index.html --open",
-    "mouseCircleAnimation": "parcel ./src/mouseCircleAnimation/index.html --open"
+    "mouseCircleAnimation": "parcel ./src/mouseCircleAnimation/index.html --open",
+    "mandelbrot": "parcel ./src/mandelbrot/index.html --open"
   },
   "dependencies": {
     "p5": "^1.4.1",
+    "prettier": "^2.7.1",
     "typescript": "^4.7.4"
   },
   "devDependencies": {
